@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <declare-styleable name="RiPanel">
+        <attr name="android:id" />
+        <attr name="android:layout_width" />
+        <attr name="android:layout_height" />
+        <attr name="android:layout_marginLeft" />
+        <attr name="android:layout_marginTop" />
+        <attr name="android:orientation" />
+        <attr name="android:background" />
+        <attr name="android:layout_weight"/>
+    </declare-styleable>
+    <declare-styleable name="AddInfoPanel">
+        <attr name="android:id" />
+        <attr name="android:layout_width" />
+        <attr name="android:layout_height" />
+        <attr name="android:layout_marginLeft" />
+        <attr name="android:layout_marginTop" />
+        <attr name="android:orientation" />
+        <attr name="android:background" />
+        <attr name="android:layout_weight"/>
+    </declare-styleable>
+    <declare-styleable name="RequestNewUserPanel">
+        <attr name="android:id" />
+        <attr name="android:layout_width" />
+        <attr name="android:layout_height" />
+        <attr name="android:layout_marginLeft" />
+        <attr name="android:layout_marginTop" />
+        <attr name="android:orientation" />
+        <attr name="android:background" />
+        <attr name="android:layout_weight"/>
+    </declare-styleable>
+    <declare-styleable name="RequestsForNewUsersPanel">
+        <attr name="android:id" />
+        <attr name="android:layout_width" />
+        <attr name="android:layout_height" />
+        <attr name="android:layout_marginLeft" />
+        <attr name="android:layout_marginTop" />
+        <attr name="android:orientation" />
+        <attr name="android:background" />
+        <attr name="android:layout_weight"/>
+    </declare-styleable>
+    <declare-styleable name="ChangePasswordPanel">
+        <attr name="android:id" />
+        <attr name="android:layout_width" />
+        <attr name="android:layout_height" />
+        <attr name="android:layout_marginLeft" />
+        <attr name="android:layout_marginTop" />
+        <attr name="android:orientation" />
+        <attr name="android:background" />
+        <attr name="android:layout_weight"/>
+    </declare-styleable>
+</resources>

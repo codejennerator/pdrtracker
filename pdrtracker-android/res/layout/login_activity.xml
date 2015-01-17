@@ -1,0 +1,26 @@
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/login_user_layout_root"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/panel_background"
+        android:layout_weight="0.0"
+        tools:context=".MainActivity">
+
+
+    <fragment
+            android:name="rmg.pdrtracker.login.loginUser.LoginUserFragment"
+            android:id="@+id/login_user_fragment"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+    <fragment
+            android:name="rmg.pdrtracker.login.registerUser.RegisterUserFragment"
+            android:id="@+id/register_user_fragment"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+
+
+</RelativeLayout>

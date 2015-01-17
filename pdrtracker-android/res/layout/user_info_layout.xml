@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@drawable/icon1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+    <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="25"
+            android:rowCount="20"
+            android:isScrollContainer="true"
+            >
+
+        <TextView
+
+                android:textColor="@drawable/label_foreground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24dp"
+                android:text="@string/labor_rate_label"
+                android:layout_columnSpan="1"
+                android:layout_column="0"
+                android:layout_margin="12dp"
+                android:layout_row="0"/>
+
+        <EditText
+                android:id="@+id/labor_rate"
+                android:background="@drawable/backwithborder"
+                android:textSize="24dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:inputType="text"
+                android:layout_columnSpan="1"
+                android:layout_column="1"
+                android:layout_row="0"
+                android:gravity="top"
+                android:singleLine="true"
+                android:scrollbars="vertical"
+                android:layout_margin="12dp"
+                android:layout_gravity="fill_horizontal"/>
+
+        <TextView
+
+                android:textColor="@drawable/label_foreground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24dp"
+                android:text="@string/company_name_label"
+                android:layout_columnSpan="2"
+                android:layout_column="0"
+                android:layout_margin="12dp"
+                android:layout_row="1"/>
+
+        <EditText
+                android:id="@+id/company_name"
+                android:background="@drawable/backwithborder"
+                android:textSize="24dp"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:inputType="text"
+                android:layout_columnSpan="1"
+                android:layout_column="1"
+                android:layout_row="1"
+                android:gravity="top"
+                android:singleLine="true"
+                android:scrollbars="vertical"
+                android:layout_margin="12dp"
+                android:layout_gravity="fill_horizontal"/>
+
+        <TextView
+
+                android:textColor="@drawable/label_foreground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24dp"
+                android:text="@string/company_phone_label"
+                android:layout_columnSpan="1"
+                android:layout_column="0"
+                android:layout_margin="12dp"
+                android:layout_row="2"/>
+
+        <EditText
+                android:id="@+id/company_phone"
+                android:background="@drawable/backwithborder"
+                android:textSize="24dp"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:inputType="text"
+                android:layout_columnSpan="1"
+                android:layout_column="1"
+                android:layout_row="2"
+                android:gravity="top"
+                android:singleLine="true"
+                android:scrollbars="vertical"
+                android:layout_margin="12dp"
+                android:layout_gravity="fill_horizontal"/>
+
+        <TextView
+
+                android:textColor="@drawable/label_foreground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24dp"
+                android:text="@string/company_address_label"
+                android:layout_columnSpan="1"
+                android:layout_column="0"
+                android:layout_margin="12dp"
+                android:layout_row="3"/>
+
+        <EditText
+                android:id="@+id/company_address"
+                android:background="@drawable/backwithborder"
+                android:textSize="24dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:inputType="text"
+                android:layout_columnSpan="1"
+                android:layout_column="1"
+                android:layout_row="3"
+                android:gravity="top"
+                android:singleLine="true"
+                android:scrollbars="vertical"
+                android:layout_margin="12dp"
+                android:layout_gravity="fill_horizontal"/>
+
+        <TextView
+
+                android:textColor="@drawable/label_foreground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24dp"
+                android:text="@string/company_email_label"
+                android:layout_columnSpan="1"
+                android:layout_column="0"
+                android:layout_margin="12dp"
+                android:layout_row="4"/>
+
+        <EditText
+                android:id="@+id/company_email"
+                android:background="@drawable/backwithborder"
+                android:textSize="24dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:inputType="text"
+                android:layout_columnSpan="1"
+                android:layout_column="1"
+                android:layout_row="4"
+                android:gravity="top"
+                android:singleLine="true"
+                android:scrollbars="vertical"
+                android:layout_margin="12dp"
+                android:layout_gravity="fill_horizontal"/>
+
+        <TextView
+
+                android:textColor="@drawable/label_foreground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24dp"
+                android:text="@string/company_website_label"
+                android:layout_columnSpan="1"
+                android:layout_column="0"
+                android:layout_margin="12dp"
+                android:layout_row="5"/>
+
+        <EditText
+                android:id="@+id/company_website"
+                android:background="@drawable/backwithborder"
+                android:textSize="24dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:inputType="text"
+                android:layout_columnSpan="1"
+                android:layout_column="1"
+                android:layout_row="5"
+                android:gravity="top"
+                android:singleLine="true"
+                android:scrollbars="vertical"
+                android:layout_margin="12dp"
+                android:layout_gravity="fill_horizontal"/>
+
+        <TextView
+
+                android:textColor="@drawable/label_foreground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24dp"
+                android:text="@string/estimator_name_label"
+                android:layout_columnSpan="1"
+                android:layout_column="3"
+                android:layout_margin="12dp"
+                android:layout_row="0"/>
+
+        <EditText
+                android:id="@+id/estimator_name"
+                android:background="@drawable/backwithborder"
+                android:textSize="24dp"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:inputType="text"
+                android:layout_columnSpan="1"
+                android:layout_column="4"
+                android:layout_row="0"
+                android:gravity="top"
+                android:singleLine="true"
+                android:scrollbars="vertical"
+                android:layout_margin="12dp"
+                android:layout_gravity="fill_horizontal"/>
+
+    </GridLayout>
+</ScrollView>

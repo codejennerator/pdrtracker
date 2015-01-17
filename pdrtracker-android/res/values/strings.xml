@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name"></string>
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Log Out</string>
+
+    <string name="login_action">Login</string>
+
+    <string name="print_job_action">Print</string>
+
+    <string name="job_action">Job</string>
+    <string name="create_job_action">Create Job</string>
+    <string name="main_menu_action">Main Menu</string>
+    <string name="save_job_action">Save</string>
+    <string name="profile_action">Profile</string>
+
+    <!-- Main Menu Panel -->
+    <string name="main_menu_profile_label">Profile</string>
+    <string name="main_menu_create_hail_estimate_label">Create Hail Estimate</string>
+    <string name="main_menu_estimates_label">Estimates</string>
+    <string name="main_menu_invoices_label">Invoices</string>
+
+
+
+    <!-- Create JOB Panel -->
+    <string name="job_name_label">Job Name</string>
+    <string name="job_date_label">Date</string>
+    <string name="estimator_label">Estimator</string>
+    <string name="insurance_label">Insurance</string>
+    <string name="claim_number_label">Claim #</string>
+    <string name="customer_name_label">Customer Name</string>
+    <string name="customer_phone_label">Customer Phone</string>
+    <string name="vehicle_heading_label">Vehicle</string>
+    <string name="vin_label">VIN</string>
+    <string name="vehicle_year_label">Year</string>
+    <string name="vehicle_make_label">Make</string>
+    <string name="vehicle_model_label">Model</string>
+    <string name="vehicle_color_label">Color</string>
+    <string name="job_description_label">Job Description</string>
+
+    <string name="severity_class_label"></string>
+
+    <string name="average_size_label"></string>
+
+    <!-- RI Part Labels -->
+    <string name="assembly_label">Assembly</string>
+    <string name="liner_label">Liner</string>
+    <string name="headliner_with_sunroof_label">Headliner with Sunroof</string>
+    <string name="headliner_without_sunroof_label">Headliner without Sunroof</string>
+    <string name="roof_rack_label">Roof Rack</string>
+    <string name="rear_hatch_label">Hatch</string>
+    <string name="left_drip_molding_label">Left Drip Molding</string>
+    <string name="right_drip_molding_label">Right Drip Molding</string>
+    <string name="dvd_label">DVD</string>
+    <string name="third_brake_light_label">Third Brake Light</string>
+    <string name="windshield_label">Windshield</string>
+    <string name="center_console_label">Center Console</string>
+    <string name="headlight_label">Headlight</string>
+    <string name="door_panel">Door Panel</string>
+    <string name="upper_molding">Upper Molding</string>
+    <string name="lower_belt_molding">Lower Belt Molding</string>
+    <string name="applique">Applique</string>
+    <string name="taillight">Taillight</string>
+    <string name="sunroof_assembly_label">Sunroof Assembly</string>
+    <string name="aluminum_panel_label">Aluminum Panel</string>
+
+    <!-- Additional Info Tab -->
+    <string name="job_notes_label">Job Notes</string>
+    <string name="double_panel_label">Double Panel</string>
+    <string name="oversized_dent_label">Oversized Dent</string>
+    <string name="sharp_dent_label">Sharp Dent</string>
+    <string name="other_label">Other</string>
+
+    <!-- JobActivity Tab Labels -->
+    <string name="job_details_tab_label">Job Details</string>
+    <string name="damage_matrix_tab_label">Damage Matrix</string>
+    <string name="surcharge_tab_label">Surcharge</string>
+    <string name="additional_info_tab_label">Additional Info</string>
+
+    <!-- General Notes Tab Labels -->
+    <string name="general_notes_tab_label">General Notes</string>
+    <string name="general_notes_label">Notes</string>
+
+
+    <!-- login Labels -->
+    <string name="login_user_name_label">User Name</string>
+    <string name="login_password_label">Password</string>
+    <string name="login_email_label">Email</string>
+    <string name="login_phone_label">Phone Number</string>
+    <string name="login_login_label">Login</string>
+    <string name="login_signup_label">Sign Up</string>
+    <string name="login_change_password_label">Change Password</string>
+
+    <string name="login_user_tab_label">User Login</string>
+
+    <!-- change password Labels -->
+    <string name="change_password_current_password_label">Current Password</string>
+    <string name="change_password_new_password_label">New Password</string>
+
+    <!-- registration Labels -->
+    <string name="register_user_tab_label">Administrative Tasks</string>
+
+    <string name="registration_password_label">Password</string>
+    <string name="registration_login_label">User Name</string>
+    <string name="registration_submit_label">Register User</string>
+    <string name="registration_view_requests_label">View New User Requests</string>
+    <string name="registration_deactivate_label">DeActivate User</string>
+    <string name="registration_reactivate_label">ReActivate User</string>
+    <string name="registration_reset_password_label">Reset Users Password</string>
+
+    <!-- Profile Labels -->
+    <string name="user_info_tab_label">User Info</string>
+    <string name="dealer_list_tab_label">Dealer List</string>
+    <string name="estimates_setup_tab_label">Estimates Setup</string>
+    <string name="invoices_setup_tab_label">Invoices Setup</string>
+
+    <!-- Profile Labels User Tab-->
+    <string name="labor_rate_label">Labor Rate</string>
+    <string name="company_name_label">Company Name</string>
+    <string name="company_phone_label">Company Phone Number</string>
+    <string name="company_address_label">Company Address</string>
+    <string name="company_email_label">Company Email Address</string>
+    <string name="company_website_label">Company Website</string>
+    <string name="estimator_name_label">Estimator Name</string>
+
+    <!-- Profile Labels Estimates Tab-->
+    <string name="estimates_index_label">Estimates Index</string>
+    <string name="estimates_logo_label">Estimates Logo</string>
+    <string name="estimates_setup_comments_label">Comments</string>
+
+
+
+    <!-- address of webserver -->
+    <!--  <string name="login_url">http://pdrtrackercom.ipage.com/pdrtrackerdata/index.php</string>  -->
+    <!--  <string name="login_url">http://192.168.1.100/pdrtracker/index.php</string>   -->
+    <string name="login_url">http://pdrtrackercom.ipage.com/pdrtrackerdata/index.php</string>
+
+    <!--name of person authorized to register users-->
+    <string name="login_registration_admin">pdrtrackeradmin</string>
+
+    <!-- dialog text -->
+    <string name="save_job_dialog">Save the current state of this job?</string>
+    <string name="are_you_sure_delete_dialog">Are you sure you would like to remove this damage?</string>
+    <string name="are_you_sure_change_dialog">Are you sure you would like to change the value of this damage?</string>
+    <string name="dialog_no_internet_connection">You must be connected to the internet to register with the system.</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="login_error_dialog">The username or password you entered is incorrect. Please try again.</string>
+    <string name="login_error">Incorrect email or password!</string>
+    <string name="login_inactive_error">The User Is Not Active</string>
+    <string name="register_user_exists_dialog">That user name is already in use.</string>
+    <string name="register_user_exists_error">User already existed</string>
+    <string name="login_inactive_error_dialog">Your account is no longer active</string>
+    <string name="token_expired">You must have internet access to continue.</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="printer_not_found_error">Printer Not Found</string>
+    <string name="change_damage_matrix_price_dialog">Please enter the new price:</string>
+
+
+
+</resources>

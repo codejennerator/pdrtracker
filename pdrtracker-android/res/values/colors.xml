@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <drawable name="black">#000000</drawable>
+    <drawable name="white">#ffffff</drawable>
+
+    <drawable name="red">#ff0000</drawable>
+
+    <drawable name="green1">#00ff00</drawable>
+    <drawable name="green2">#ff005e00</drawable>
+
+    <drawable name="gray1">#ffc2c4cd</drawable>
+    <drawable name="gray2">#ffc2c4cd</drawable>
+
+    <drawable name="yellow1">#ffffe44c</drawable>
+    <drawable name="yellow2">#ffe0ff0a</drawable>
+
+    <drawable name="orange1">#ffff6504</drawable>
+    <drawable name="orange2">#ffff5005</drawable>
+
+    <drawable name="blue1">#ff295184</drawable>
+    <drawable name="blue2">#ff0f25ff</drawable>
+
+    <drawable name="testBackground">#07000000</drawable>
+
+    <drawable name="panel_background">@drawable/gray1</drawable>
+
+    <drawable name="field_background">@drawable/white</drawable>
+    <drawable name="field_foreground">@drawable/white</drawable>
+    <drawable name="field_outline_color">@drawable/gray1</drawable>
+
+    <drawable name="text_field_foreground">@drawable/black</drawable>
+
+    <drawable name="label_foreground">@drawable/black</drawable>
+    <drawable name="label_foreground_highlight">@drawable/yellow1</drawable>
+    <drawable name="label_background">@drawable/testBackground</drawable>
+    <drawable name="label_background_highlight">@drawable/green1</drawable>
+
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Parameters to control how the DamageMatrixFragment looks.
+-->
+<resources>
+
+    <!-- Car Area Constants -->
+    <string name="hood">Hood</string>
+    <string name="roof">Roof</string>
+    <string name="deck_lid">Deck Lid</string>
+    <string name="rt_roof_rail">RT Roof Rail</string>
+    <string name="lt_roof_rail">LT Roof Rail</string>
+    <string name="l_quarter">L Quarter</string>
+    <string name="door">Door</string>
+    <string name="lr_door">LR Door</string>
+    <string name="lf_door">LF Door</string>
+    <string name="l_fender">L Fender</string>
+    <string name="r_fender">R Fender</string>
+    <string name="rf_door">RF Door</string>
+    <string name="rr_door">RR Door</string>
+    <string name="r_quarter">R Quarter</string>
+    <string name="metal_sunroof">Metal Sunroof</string>
+    <string name="other">Other</string>
+
+    <!-- Damage Classifier Constants -->
+    <string name="very_light_label">Very Light</string>
+    <integer name="very_light_start">1</integer>
+    <integer name="very_light_end">6</integer>
+
+    <string name="light_label">Light</string>
+    <integer name="light_start">6</integer>
+    <integer name="light_end">15</integer>
+
+    <string name="moderate_label">Moderate</string>
+    <integer name="moderate_start">16</integer>
+    <integer name="moderate_end">30</integer>
+
+    <string name="medium_label">Medium</string>
+    <integer name="medium_start">31</integer>
+    <integer name="medium_end">50</integer>
+
+    <string name="heavy_label">Heavy</string>
+    <integer name="heavy_start">51</integer>
+    <integer name="heavy_end">75</integer>
+
+    <string name="severe_label">Severe</string>
+    <integer name="severe_start">76</integer>
+    <integer name="severe_end">100</integer>
+
+    <string name="extreme_label">Extreme</string>
+    <integer name="extreme_start">101</integer>
+    <integer name="extreme_end">150</integer>
+
+    <string name="limit_label">Limit</string>
+    <integer name="limit_start">151</integer>
+    <integer name="limit_end">200</integer>
+
+    <string name="ceiling_label">Ceiling</string>
+    <integer name="ceiling_start">201</integer>
+    <integer name="ceiling_end">250</integer>
+
+    <!-- Dent Size Constants -->
+    <string name="nickle_label">NKL</string>
+    <string name="dime_label">DIME</string>
+    <string name="quarter_label">QTR</string>
+    <string name="half_label">HALF</string>
+
+    <!-- The size of the text in a cost button -->
+    <integer name="cost_button_text_size">20</integer>
+
+    <!-- The width of a cost button -->
+    <integer name="cost_button_width">40</integer>
+
+    <!-- The color of a cost button when it's on -->
+    <drawable name="cost_button_text_color">@drawable/black</drawable>
+
+    <!-- The color of a cost button when it's on -->
+    <drawable name="cost_button_on_color">@drawable/yellow1</drawable>
+
+    <!-- The color of a cost button when it's off -->
+    <drawable name="cost_button_off_color">@drawable/white</drawable>
+
+    <!-- The font size for the damage classifier header labels -->
+    <integer name="damage_classifier_font_size">16</integer>
+
+    <!-- The row height for the damage classifier header -->
+    <integer name="damage_classifier_row_height">20</integer>
+
+    <!-- The font size for the car area -->
+    <integer name="car_area_text_size">20</integer>
+
+    <!-- Foreground color of car area label when it's on -->
+    <drawable name="car_area_label_foreground_on">@drawable/label_foreground_highlight</drawable>
+
+    <!-- Foreground color of car area label when it's off -->
+    <drawable name="car_area_label_foreground_off">@drawable/label_foreground</drawable>
+
+    <!-- Background color of car area label when it's off -->
+    <drawable name="car_area_label_background_on">@drawable/label_background_highlight</drawable>
+
+    <!-- Background color of car area label when it's off -->
+    <drawable name="car_area_label_background_off">@drawable/label_background</drawable>
+
+    <!-- The font size for the size header labels -->
+    <integer name="dent_size_text_size">16</integer>
+
+    <!-- The row height for the dent size header -->
+    <integer name="dent_size_row_height">20</integer>
+
+    <!-- The height of the dent damage rows -->
+    <integer name="dent_button_row_height">30</integer>
+
+</resources>

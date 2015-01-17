@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/matrix_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/blue1"
+    android:layout_weight="0.0"
+    tools:context=".MainActivity">
+
+    <rmg.pdrtracker.job.damagematrix.ri.RiPanel
+        android:id="@+id/ri_panel"
+        android:layout_width="600dip"
+        android:layout_height="800dip"
+        android:orientation="horizontal"
+        android:background="@drawable/black"
+        android:layout_weight="1.0"/>
+
+    <rmg.pdrtracker.job.damagematrix.additionalinfo.AddInfoPanel
+            android:id="@+id/addInfo_panel"
+            android:layout_width="1000dip"
+            android:layout_height="800dip"
+            android:orientation="horizontal"
+            android:background="@drawable/black"
+            android:layout_weight="2.0"/>
+
+
+</RelativeLayout>
